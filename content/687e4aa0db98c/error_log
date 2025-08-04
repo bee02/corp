@@ -1,0 +1,3 @@
+[21-Jul-2025 14:19:27 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/beecorps/public_html/content/687e4aa0db98c/index.php on line 3
+[21-Jul-2025 14:21:17 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/beecorps/public_html/content/687e4aa0db98c/index.php on line 3
+[22-Jul-2025 08:02:47 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/beecorps/public_html/content/687e4aa0db98c/index.php on line 3
