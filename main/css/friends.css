@@ -1,0 +1,165 @@
+body {
+    background:default;
+}
+
+.heading {
+    width: 100%;
+    max-width: 280px;
+    border:0px solid red;
+}.heading h1{
+    font-weight: 300;
+    font-size:30px;
+}.heading form {
+    width: 100%;
+    max-width: 250px;
+    border:0px solid red;
+    margin-top:20px;
+    justify-content:space-between;
+}.heading form input{
+    width:170px;
+    height:30;
+    display:block;
+    margin-bottom:10px;
+    padding:7px;
+    box-shadow: 0px 0px 3px silver;
+    border:0px solid grey;
+    border-radius:3px;
+    outline: none;
+}.heading form button{
+    width: 50px;
+    padding:7px;
+    background: #222;
+    border:3px solid #eee;
+    border-radius: 5px;
+    color:white;
+    font-weight:bold;
+}.heading .friend-results {
+    width: 100%;
+    max-width:240px;
+    margin-bottom:20px;
+    margin-top:20px;
+    padding:10px;
+    border-radius:10px;
+}.heading .friend-results .fetch-res{
+    width: 100%;
+    max-width:280px;
+    border:0px solid grey;
+}.heading .friend-results .fetch-res a{
+    text-decoration:none;
+}.heading .friend-results .fetch-res .data{
+    width: 100%;
+    max-width:200px;
+    display:flex;
+    border:0px solid grey;
+    background:ghostwhite;
+    padding:10px;
+    margin-bottom:10px;
+}.heading .friend-results .fetch-res .data img{
+    width:50px;
+    height:50px;
+    border-radius:25px;
+}.heading .friend-results .fetch-res .data form{
+    width: 150px;
+    border:0px solid grey;
+    margin-top:0px;
+    margin-left:10px;
+}.heading .friend-results .fetch-res .data form p{
+    font-size:12px;
+    color:black;
+}.heading .friend-results .fetch-res .data form button{
+    width:100px;
+    background:chocolate;
+}
+
+
+
+.main {
+    width: 100%;
+    max-width:800px;
+    margin:0 auto;
+    display:flex;
+    border:0px solid grey;
+    margin-top:80px;
+    margin-bottom:100px;
+    
+}
+
+
+.frnd-container{
+    width: 100%;
+    max-width: 350px;
+    border: 0px solid grey;
+    background:#eee;
+    border-radius:10px;
+    display:block;
+}.frnd-container .user {
+    width: 100%;
+    max-width:250px;
+    display:flex;
+    margin-bottom:20px;
+    padding:10px;
+    /* background: #eee; */
+    border-radius:3px;
+}.frnd-container .user img{
+    width: 60px;  
+    height: 60px;  
+    border-radius: 30px;
+    border:1px solid #eee;
+}.frnd-container .user form{
+    width: 250px;
+    border:0px solid green;
+    margin-left:7px;
+}.frnd-container .user form a{
+    text-decoration:none;
+    font-size:13px;
+    color:royalblue;
+}.frnd-container .user form button{
+    padding:5px;
+    font-weight: bold;
+    margin-top:7px;
+    border:0px solid silver;
+    border-radius: 3px;
+}
+
+#show-more{
+    width: 80px;
+    height: 25px;
+    margin-left:20px;
+}
+
+
+
+.friend-list{
+    width: 100%;
+    max-width:200px;
+    border:0px solid grey;
+    /* margin:0 auto; */
+}.friend-list .object{
+    width:100%;
+    max-width:200px;
+    margin-top:20px;
+    background:silver;
+    display:flex;
+    justify-content:space-between;
+    padding:10px 0px 10px 0px;
+    border-bottom:2px solid grey;
+    margin-top:30px;
+}.friend-list .object img{
+    width:50px;
+    height:50px;
+    margin-left:10px;
+}.friend-list .object form{
+    margin:0px;
+    margin-left:10px;
+}.friend-list .object form p{
+    margin:0px;
+}.friend-list .object form button{
+    width:80px;
+    border:1px solid ghostwhite;
+    border-radius:0px;
+}
+
+
+
+
+

@@ -1,0 +1,110 @@
+body {
+    width:100%;
+    max-width:1100px;
+    margin:0 auto;
+    background:white;
+    font-family:sans-serif;
+}
+
+
+.container {
+    width:100%;
+    max-width:1100px;
+    margin:0 auto;
+    background:white;
+    position:relative;
+}
+
+
+.head{
+    width:100%;
+    max-width:1100px;
+    margin:0 auto;
+    /* background:#36474F; */
+    background:white;
+    justify-content:space-between;
+    padding-top:0px;
+    padding-bottom:5px;
+    border:0px solid chocolate;
+    border-bottom:2px solid #eeeeee;
+    display:flex;
+    border-radius:0px 0px 0px 0px;
+
+   }.head img{width:130px;border:0px solid green;}
+    .head .navbtns{width:200px;border:0px solid red;margin-top:8px;margin-right:10px;display:flex;justify-content:space-around;}
+    .head .navbtns button{background:none;color:royalblue;border-bottom:1px solid royalblue;width:80px;height:35px;border:0px solid grey;font-weight:bold;}
+    .head .navbtns button:active{background:#eee;color:black;}
+    .head .navbtns a{color:default;text-decoration:none;}
+
+
+
+.services{
+    width:100%;
+    max-width:1100px;
+    margin:0 auto;
+    border:0px solid grey;
+}.services .serv-head{
+    width:100%;
+    max-width:1100px;
+    margin:0 auto;
+    margin-top:100px;
+    margin-bottom:50px;
+    text-align:center;
+}.services .serv-head h2{
+    margin:0px;
+}.services .serv-head p{
+    text-decoration:none;
+}.services .serv-head a button{
+    width:180px;
+    height:30px;
+    border:0px;
+}.services .cont-flexer{
+    width:100%;
+    max-width:1100px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:80px;
+}.services .cont-flexer .cont-box{
+    width:100%;
+    max-width:250px;
+    border:0px solid grey;
+}.services .cont-flexer .cont-box img{
+    width:200px;
+    height:200px;
+    display:flex;
+    margin:0 auto;
+    border:0px solid grey;
+}.services .cont-flexer .cont-box .cont{
+    width:100%;
+    max-width:130px;
+    margin:0 auto;
+    background:white;
+    border-radius:5px;
+    box-shadow:0px 5px 5px silver;
+    padding:20px;
+    margin-top:-50px;
+    text-align:center;
+    opacity:90%;
+}.services .cont-flexer .cont-box .cont h3{
+    text-align:center;
+    font-size:20px;
+}.services .cont-flexer .cont-box .cont p{
+    text-align:center;
+    font-weight:300;
+    font-size:12px;
+}.services .cont-flexer .cont-box .cont a {
+    text-decoration:none;
+    color:default;
+}.services .cont-flexer .cont-box .cont a button{
+    background:#222;
+    padding:7px;
+    border-radius:5px;
+    color:white;
+    font-weight:bold;
+    border:2px solid rgb(51, 6, 6);
+}.services .cont-flexer .cont-box .cont a button:active{
+    background:white;
+    color:black;
+    cursor:pointer;
+}

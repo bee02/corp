@@ -1,0 +1,780 @@
+body{
+	width:100%;
+	max-width:1200px;
+	margin:0 auto;
+}
+
+.container {
+	width:100%;
+	max-width:1200;
+	margin:0 auto;
+	border:0px solid red;
+}
+
+.container .main {
+	width:100%;
+	max-width:1200;
+	margin:0 auto;
+	border:0px solid grey;
+	margin-top:55px;
+}
+
+.cover-photo {
+	width: 100%;
+	max-width: 1200px;
+	margin:0 auto;
+	border:0px solid grey;
+	overflow:hidden;
+	display:none;
+	height: 100;
+	display:block;
+	background:none;
+	/* background-image: url("../xbin/img/sys/logo/bg-domain.png"); */
+	background:silver;
+	background-repeat:no-repeat;
+	background-size: cover;
+	/* border-radius: 0px 0px 20px 20px; */
+	display:block;
+}.cover-photo img{
+	width: 100%;
+}
+
+
+.profile-box {
+	width: 100%;
+	max-width: 1200px;
+	margin:0 auto;
+	margin-top: -80px;
+	
+}.profile-box .profile-data {
+	width: 100%;
+	max-width: 1200px;
+	background:none;
+}.profile-box .profile-data .data-one {
+	/* flexer */
+	width: 100%;
+	max-width: 1000px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	border:0px solid red;
+	background:white;
+	padding:10px 0px 10px 0px;
+}.profile-box .profile-data .data-one .data-info {
+	width: 100%;
+	max-width: 400px;
+	display:flex;
+	justify-content: space-around;
+	flex-wrap:wrap;
+	background:white;
+}.profile-box .profile-data .data-one .data-info #mypic{
+	width: default;
+}.profile-box .profile-data .data-one .data-info #username{
+	border:0px solid white;
+	height: 45px;
+	margin-top:5px;
+}.profile-box .profile-data .data-one .data-info #username h2{
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: capitalize;
+}.profile-box .profile-data .data-one .data-info #username p{
+	font-size: 13px;
+	margin:0px;
+}.profile-box .profile-data .data-one .data-info #records {
+	border:0px solid red;
+}.profile-box .profile-data .data-one .data-info #records p{
+	font-size:12px;
+}.profile-box .profile-data .data-one .data-btns{
+	width: 170px;
+	height: 35px;
+	border:0px solid green;
+	margin-top:15px;
+}.profile-box .profile-data .data-one .data-btns form{
+	display:flex;
+	justify-content:space-around;
+}.profile-box .profile-data .data-one .data-btns form button{
+	text-align:center;
+	font-size:12px;
+	font-weight: bold;
+	padding: 6px;
+	border:0px;
+	box-shadow: 0px 0px 3px grey;
+	border-radius: 3px;
+}
+
+.profile-box .profile-data .data-two{
+	width: 100%;
+	max-width: 1000px;
+	margin:0 auto;
+	border:0px solid red;
+	
+}.profile-box .profile-data .data-two .btns{
+	background: silver;
+
+}.profile-box .profile-data .data-two .btns a{
+	text-decoration:none;
+}.profile-box .profile-data .data-two .btns a button {
+	width:100px;
+	border:0px;
+	padding: 10px;
+	background:none;
+}
+
+
+
+.profile-box .profile-information {
+	width: 100%;
+	max-width: 1000px;
+	margin:0 auto;
+	margin-bottom: 0px;
+	display: flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	border:0px solid red;
+}.profile-box .profile-information .personal-info-one{
+	width: 100%;
+	max-width: 350px;
+	height: 400px;
+
+	border:0px solid red;
+	box-shadow: 0px 0px 2px silver;
+	border-radius: 2px;
+	margin-top: 20px;
+}.profile-box .profile-information .personal-info-one h3{
+	color: #9296af;
+	margin: 10px;
+	font-size:15px;
+}.profile-box .profile-information .personal-info-one p{
+	padding:10px;
+	border: 0px solid grey;
+	border:0px;
+	box-shadow: 0px 0px 1px silver;
+}.profile-box .profile-information .personal-info-one p span{
+	color: #9d9ebd;
+	font-size:12px;
+}.profile-box .profile-information .personal-info-one p strong{
+	text-transform: capitalize;
+	font-size:13px;
+}.profile-box .profile-information .personal-info-one p a{
+	text-decoration: underline;
+	color: royalblue;
+	font-size:15px;
+}
+
+
+.profile-box .profile-information .personal-info-two{
+	width: 100%;
+	max-width: 600px;
+	/* height: 500px; */
+	border:0px solid silver;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}.profile-box .profile-information .personal-info-two .box{
+	box-shadow: 0px 0px 2px silver;
+	margin-bottom: 20px;
+	border-radius: 2px;
+}.profile-box .profile-information .personal-info-two .box h3{
+	color: #9296af;
+	padding: 10px;
+	font-size:15px;
+}.profile-box .profile-information .personal-info-two .box p{
+	padding:10px;
+	border: 01px solid grey;
+	border:0px;
+	box-shadow: 0px 0px 1px 0px silver;
+}.profile-box .profile-information .personal-info-two .box p span{
+	color: #9d9ebd;
+	font-size:12px;
+}.profile-box .profile-information .personal-info-two .box p strong{
+	text-transform: capitalize;
+	font-size:13px;
+}.profile-box .profile-information .personal-info-two .box p a{
+	text-decoration: underline;
+	color: royalblue;
+	font-size:15px;
+}.profile-box .profile-information .personal-info-two .box .m-box{
+	width:100%;
+	max-width:600px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	border:0px solid green;
+	box-shadow: 0px 0px 1px 0px grey;
+	border-radius: 0px;
+	padding: 10px 0px 10px 0px;
+	margin-bottom: 0px;
+}.profile-box .profile-information .personal-info-two .box .m-box img{
+	width:30px;
+	height: 30px;
+	border:0px solid red;
+	border-radius:5px;
+	/* box-shadow: 0px 0px 5px grey; */
+	border-top:1px solid #f5f5f5;
+	margin-left:10px;
+}.profile-box .profile-information .personal-info-two .box .m-box b{
+	font-size:12px;
+	margin-top:8px;
+}.profile-box .profile-information .personal-info-two .box .m-box span{
+	width: 250px;
+	border:0px solid red;
+	font-weight: bold;
+	font-size:10px;
+	margin-top:8px;
+}.profile-box .profile-information .personal-info-two .box .m-box a{
+	font-size:12px;
+	margin-top:8px;
+	color:royalblue;
+	text-decoration: none;
+}.profile-box .profile-information .personal-info-two .box .m-box .ply-ps-btn{
+	width: 30px;
+	height: 30px;
+	border-radius:15px;
+	border:0px solid blue;
+	background:#222;
+}.profile-box .profile-information .personal-info-two .box .m-box .ply-ps-btn button{
+	width: 100%;
+	height: 100%;
+	border-radius:15px;
+	border:0px;
+	background: none;
+}.profile-box .profile-information .personal-info-two .box .m-box form{
+	border:0px solid red;
+	margin-right: 10px;
+}.profile-box .profile-information .personal-info-two .box .m-box form button{
+	border:0px;
+	padding:3px;
+	background:chocolate;
+}
+
+.mypictures{
+	width: 100%;
+	max-width: 600px;
+	border:0px solid red;
+}.mypictures h1{
+	font-size:12px;
+	display:none;
+}.mypictures .flex{
+	width: 100%;
+	max-width: 600px;
+	border:0px solid green;
+	display:flex;
+	flex-wrap:wrap;
+
+}.mypictures .flex .box-p{
+	width: 90px;
+	border:0px solid grey;
+	margin: 10px;
+}.mypictures .flex .box-p img{
+	width:90px;
+	height: 90px;
+	border:0px solid grey;
+	margin-bottom:5px;
+}.mypictures .flex .box-p form{
+	width: 90px;
+	display: flex;
+	justify-content:space-between;
+}.mypictures .flex .box-p form button{
+	height: 30px;
+	background: #222;
+	color: white;
+	font-weight: bold;
+	border: 0px solid grey;
+	border-radius: 0px;
+	font-size: 10px;
+}
+
+.box-bb{
+	width:100%;
+	max-width: 1100px;
+	margin:0 auto;
+	background:white;
+	/* margin-top:100px; */
+}.box-bb .business{
+	background:default;
+}.box-bb .business .flex{
+	padding:20px 0px 20px 0px;
+	color:default;
+	display:flex;
+	overflow:hidden;
+	overflow-x:scroll;
+	scrollbar-width: none;
+	scroll-behavior: smooth;
+}.box-bb .business .flex .box-b{
+	width:100%;
+	max-width:200px;
+	color: default;
+	border:0px solid green;
+	box-shadow: 0px 0px 0px 0px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px silver;
+	padding-bottom:20px;
+	margin-left:20px;
+	margin-right:20px;
+}.box-bb .business .box-b .img-box{
+	width:200px;
+	height:150px;
+	overflow:hidden;
+
+}.box-bb .business .box-b .img-box img{
+	width:100%;
+	height:100%;
+	border-radius: 10px 10px 0px 0px;
+}.box-bb .business .box-b .deta{
+	width: 180px;
+	margin:0 auto;
+	background:none;
+}.box-bb .business .box-b .deta h3{
+	margin:0px;
+	font-size:20px;
+	font-weight:300;
+}.box-bb .business .box-b .deta p{
+	font-size:12px;
+	padding:0px;
+	margin-bottom:10px;
+	border:0px;
+	box-shadow:none;
+}.box-bb .business .box-b .deta h4{
+	font-size:12px;
+}.box-bb .business .box-b .deta button{
+	background:none;
+	border:0px;
+}
+
+.box-bb .business #addbtn {
+	padding:10px;
+	margin-bottom:20px;
+	background:#eee;
+	border:0px;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:699px){
+	body{
+		background:default;
+	}
+
+.profile-box {
+	width: 100%;
+	max-width: 1200px;
+	margin:0 auto;
+	margin-top: -80px;
+	
+}.profile-box .profile-data {
+	width: 100%;
+	max-width: 1200px;
+	background:none;
+}.profile-box .profile-data .data-one {
+	/* flexer */
+	width: 100%;
+	max-width: 1000px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	border:0px solid red;
+	background:white;
+	padding:10px 0px 10px 0px;
+}.profile-box .profile-data .data-one .data-info {
+	width: 100%;
+	max-width: 400px;
+	display:flex;
+	justify-content: space-around;
+	flex-wrap:wrap;
+	background:white;
+}.profile-box .profile-data .data-one .data-info #mypic{
+	width: default;
+}.profile-box .profile-data .data-one .data-info #username{
+	border:0px solid white;
+	height: 45px;
+	margin-top:5px;
+}.profile-box .profile-data .data-one .data-info #username h2{
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: capitalize;
+}.profile-box .profile-data .data-one .data-info #username p{
+	font-size: 13px;
+	margin:0px;
+}.profile-box .profile-data .data-one .data-info #records {
+	border:0px solid red;
+}.profile-box .profile-data .data-one .data-info #records p{
+	font-size:12px;
+}.profile-box .profile-data .data-one .data-btns{
+	width: 170px;
+	height: 35px;
+	border:0px solid green;
+	margin-top:15px;
+}.profile-box .profile-data .data-one .data-btns form{
+	display:flex;
+	justify-content:space-around;
+}.profile-box .profile-data .data-one .data-btns form button{
+	text-align:center;
+	font-size:12px;
+	font-weight: bold;
+	padding: 6px;
+	border:0px;
+	box-shadow: 0px 0px 3px grey;
+	border-radius: 3px;
+}
+
+.profile-box .profile-data .data-two{
+	width: 100%;
+	max-width: 1000px;
+	margin:0 auto;
+	border:0px solid red;
+	
+}.profile-box .profile-data .data-two .btns{
+	background: silver;
+
+}.profile-box .profile-data .data-two .btns a{
+	text-decoration:none;
+}.profile-box .profile-data .data-two .btns a button {
+	width:100px;
+	border:0px;
+	padding: 10px;
+	background:none;
+}
+
+
+
+.profile-box .profile-information {
+	width: 100%;
+	max-width: 1000px;
+	margin:0 auto;
+	margin-bottom: 0px;
+	display:block;
+	justify-content:space-between;
+	flex-wrap:nowrap;
+	border:0px solid red;
+}.profile-box .profile-information .personal-info-one{
+	width: 100%;
+	max-width: 350px;
+	height: 350px;
+	margin:0 auto;
+	border:0px solid red;
+	box-shadow: 0px 0px 2px silver;
+	border-radius: 0px;
+	margin-top: 20px;
+}.profile-box .profile-information .personal-info-one h3{
+	color: #9296af;
+	margin: 10px;
+	font-size:15px;
+}.profile-box .profile-information .personal-info-one p{
+	padding:10px;
+	border: 0px solid grey;
+	border:0px;
+	box-shadow: 0px 0px 0px silver;
+}.profile-box .profile-information .personal-info-one p span{
+	color: #9d9ebd;
+	font-size:12px;
+}.profile-box .profile-information .personal-info-one p strong{
+	text-transform: capitalize;
+	font-size:13px;
+}.profile-box .profile-information .personal-info-one p a{
+	text-decoration: underline;
+	color: royalblue;
+	font-size:15px;
+}
+
+
+.profile-box .profile-information .personal-info-two{
+	width: 100%;
+	max-width: 350px;
+	/* height: 500px; */
+	margin:0 auto;
+	border:0px solid silver;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}.profile-box .profile-information .personal-info-two .box{
+	box-shadow: 0px 0px 2px silver;
+	margin-bottom: 20px;
+	border-radius: 0px;
+}.profile-box .profile-information .personal-info-two .box h3{
+	color: #9296af;
+	padding: 10px;
+	font-size:15px;
+}.profile-box .profile-information .personal-info-two .box p{
+	padding:10px;
+	border: 0px solid grey;
+	border:0px;
+	box-shadow: 0px 0px 1px 0px silver;
+}.profile-box .profile-information .personal-info-two .box p span{
+	color: #9d9ebd;
+	font-size:12px;
+}.profile-box .profile-information .personal-info-two .box p strong{
+	text-transform: capitalize;
+	font-size:13px;
+}.profile-box .profile-information .personal-info-two .box p a{
+	text-decoration: underline;
+	color: royalblue;
+	font-size:15px;
+}.profile-box .profile-information .personal-info-two .box .m-box{
+	width:100%;
+	max-width:300px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	border:0px solid green;
+	box-shadow: 0px 0px 1px 0px grey;
+	border-radius: 0px;
+	padding: 10px 0px 10px 0px;
+	margin-bottom: 0px;
+}.profile-box .profile-information .personal-info-two .box .m-box img{
+	width:30px;
+	height: 30px;
+	border:0px solid red;
+	border-radius:5px;
+	/* box-shadow: 0px 0px 5px grey; */
+	border-top:1px solid #f5f5f5;
+	margin-left:10px;
+}.profile-box .profile-information .personal-info-two .box .m-box b{
+	font-size:12px;
+	margin-top:8px;
+	display:none;
+}.profile-box .profile-information .personal-info-two .box .m-box span{
+	width: 250px;
+	border:0px solid red;
+	font-weight: bold;
+	font-size:8px;
+	margin-top:8px;
+	margin-left:10px;
+}.profile-box .profile-information .personal-info-two .box .m-box a{
+	font-size:8px;
+	margin-top:8px;
+	color:royalblue;
+	text-decoration: none;
+	margin-right:30px;
+}.profile-box .profile-information .personal-info-two .box .m-box .ply-ps-btn{
+	width: 30px;
+	height: 30px;
+	border-radius:15px;
+	border:0px solid blue;
+	background:#222;
+	margin-right:10px;
+}.profile-box .profile-information .personal-info-two .box .m-box .ply-ps-btn button{
+	width: 30px;
+	height: 30px;
+	border-radius:15px;
+	border:0px;
+	background: none;
+}.profile-box .profile-information .personal-info-two .box .m-box form{
+	border:0px solid red;
+	margin-right: 10px;
+}.profile-box .profile-information .personal-info-two .box .m-box form button{
+	border:0px;
+	padding:3px;
+	background:chocolate;
+}
+
+
+}
+
+
+
+
+
+
+
+
+/* 
+
+.profile-box .profile-information .personal-info-two .box .m-box{
+	width:100%;
+	max-width:200px;
+	margin:0 auto;
+	display:block;
+	justify-content:space-between;
+	border:1px solid blue;
+	box-shadow: 0px 0px 5px grey;
+	border-radius: 0px;
+	padding: 0px 0px 10px 0px;
+	margin-bottom: 0px;
+	text-align:center;
+	margin-bottom:5px;
+}.profile-box .profile-information .personal-info-two .box .m-box img{
+	width:100%;
+	height: 150px;
+	border:0px solid red;
+	border-radius:0px;
+	/* box-shadow: 0px 0px 5px grey;
+	border-top:1px solid #f5f5f5;
+	margin-left:0px;
+}.profile-box .profile-information .personal-info-two .box .m-box b{
+	font-size:12px;
+	margin-top:8px;
+	display:none;
+}.profile-box .profile-information .personal-info-two .box .m-box span{
+	width: 250px;
+	border:0px solid red;
+	font-weight: bold;
+	font-size:10px;
+	margin-top:8px;
+	display:block;
+	
+}.profile-box .profile-information .personal-info-two .box .m-box a{
+	width:100%;
+	display:block;
+	font-size:12px;
+	margin-top:2px;
+	color:royalblue;
+	text-decoration: none;
+	border:01px solid red;
+	text-align:center;
+}.profile-box .profile-information .personal-info-two .box .m-box .ply-ps-btn{
+	width: 30px;
+	height: 30px;
+	border-radius:15px;
+	border:0px solid blue;
+	background:#222;
+}.profile-box .profile-information .personal-info-two .box .m-box .ply-ps-btn button{
+	width: 100%;
+	height: 100%;
+	border-radius:15px;
+	border:0px;
+	background: none;
+}.profile-box .profile-information .personal-info-two .box .m-box form{
+	border:0px solid red;
+	margin-right: 10px;
+}.profile-box .profile-information .personal-info-two .box .m-box form button{
+	border:0px;
+	padding:3px;
+	background:chocolate;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imageUploader{
+	width:100%;
+	max-width:250px;
+	padding:20px;
+	background:white;
+	position:absolute;
+	top:40%;
+	right:10%;
+	box-shadow:0 0 10px grey;
+	display:none;
+   }.imageUploader h2{
+	font-weight:300;
+   }.imageUploader form{
+	color:default;
+   }.imageUploader form label{
+	display:block;
+	padding:10px;
+	background:#222;
+	width:170px;
+	color:white;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+   }.imageUploader form button{
+	margin-right:5px;
+	padding:5px;
+	border:1px solid silver;
+   }
+
+
+
+
+   .mynav{
+	width:100%;
+	max-width:800px;
+	margin:0 auto;
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	padding-top:0px;
+	padding-bottom:0px;
+	/*margin-top:-1px;*/
+	border-top:01px solid #eeeeee;
+	display:none;
+
+   }.mynav .buttons{
+	width:100%;
+	max-width:800px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-around;
+	background:white;
+	display:noe;
+	/* background:#36474F; */
+	padding-top:10px;
+	padding-bottom:20px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	border-radius:0px;
+	margin-top:0px;
+	
+   }.mynav .buttons a {
+	color:default;
+	cursor:pointer;
+   }.mynav .buttons a button{background:none;border:0px;padding:5px;}
+
+
+
+
+   @media (max-width:700px){
+	.mynav{
+		display:block;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
