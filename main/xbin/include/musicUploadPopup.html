@@ -1,0 +1,77 @@
+<!--musicUpload-->
+		  <style>
+		   .musicUpload{
+		    width:100%;
+		    max-width:250px;
+		    margin:0 auto;
+		    position:fixed;
+		    top:25%;
+		    left:10%;
+		    background:white;
+		    box-shadow:0 0 50px grey;
+		    padding-top:20px;
+		    padding-bottom:20px;
+		    border-radius:5px;
+		    display:none;
+		   }.musicUpload h1{
+		     font-size:30px;
+		     text-align:center;
+		     font-weight:300;
+		     margin-bottom:20px;
+		   }.musicUpload form{
+		    width:100%;
+		    max-width:200px;
+		    margin:0 auto;
+		   }.musicUpload form label{
+		    display:block;
+		    margin-bottom:5px;
+		    font-size:px;
+		   }.musicUpload input{
+		    width:100%;
+		    height:30px;
+		    outline:ghostwhite;
+		    border:01px solid silver;
+		   }.musicUpload #f{
+		    background:#222;
+		    color:white;
+		    padding:10px;
+		    margin-bottom:10px;
+		    margin-top:10px;
+		    border-radius:3px;
+		    text-align:center;
+		   }.musicUpload button{
+		    padding:5px;
+		    border:1px solid silver;
+		    
+		   }
+		  </style>
+		  <div class="musicUpload" id="musicUpload">
+		   <h1>Upload</h1>
+		    <form action="../main/php/upload.php" method="post" enctype="multipart/form-data">
+		    
+		    <label>
+		     title
+		     <input name="title" placeholder="e.g: artistname - songtitle" type="text" />
+		    </label>
+		     
+		    <!--<select>
+		     <option>This is my Record</option>
+		     <option>This is not my Record</option>
+		    </select>-->
+		    
+		    <label id="f">
+		     Select Picture
+		     <input name="pictureframe" type="file" style="display:none" accept="image/*" />
+		    </label>
+		    
+		    <label id="f">
+		     Select Music
+		     <input name="music" type="file" style="display:none" accept="audio/*" />
+		    </label>
+		    
+		    <button id="musicClosecont" type="button">Cancel</button>
+		    <button type="submit" name="uploadmusic">Upload</button>
+		    
+		    </form>
+		  </div>
+		  <!--muaicUpload-->
